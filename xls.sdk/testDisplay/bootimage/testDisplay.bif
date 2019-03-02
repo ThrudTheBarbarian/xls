@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/media/psf/raid/simon/src/verilog/xls/xls.sdk/fsbl/Debug/fsbl.elf
+	/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+	/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/Debug/testDisplay.elf
+}
