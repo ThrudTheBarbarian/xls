@@ -287,8 +287,8 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, int pattern)
 	switch (pattern)
 	{
 	case DEMO_PATTERN_0:
-
-		for (i = 0; i < 1080; i++)
+		memcpy(frame, gImage_beijing, 1920*1080*4);
+		/*for (i = 0; i < 1080; i++)
 		{
 			for (j = 0; j < 1920; j++)
 			{
@@ -297,7 +297,7 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, int pattern)
 				frame[1920*4*i+4*j+2]=gImage_beijing[1920*4*i+4*j+2];
 				frame[1920*4*i+4*j+3]=gImage_beijing[1920*4*i+4*j+3];
 			}
-		}
+		}*/
 
 
 

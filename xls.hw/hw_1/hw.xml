@@ -19,8 +19,13 @@
     </Object>
   </ObjectList>
   <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z020_0" gui_info="">
+      <Properties Property="PROGRAM.HW_CFGMEM_PART" value="w25q128fv-qspi-x4-single"/>
+    </Object>
     <Object name="xc7z020_1" gui_info="">
-      <Properties Property="PROGRAM.HW_BITSTREAM" value=""/>
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="/media/psf/Home/BOOT.bin"/>
       <Properties Property="PROGRAM.HW_CFGMEM_PART" value="w25q128fv-qspi-x4-single"/>
       <Properties Property="SLR.COUNT" value="1"/>
     </Object>
