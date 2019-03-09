@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Mar  4 06:42:10 2019
-# Process ID: 27050
+# Start of session at: Thu Mar  7 09:40:26 2019
+# Process ID: 20218
 # Current directory: /media/psf/raid/simon/src/verilog/xls
 # Command line: vivado xls.xpr
 # Log file: /media/psf/raid/simon/src/verilog/xls/vivado.log
@@ -16,154 +16,62 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/psf/raid/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 6469.395 ; gain = 112.543 ; free physical = 3392 ; free virtual = 13280
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 6474.535 ; gain = 106.871 ; free physical = 3292 ; free virtual = 13205
 update_compile_order -fileset sources_1
-launch_sdk -workspace /media/psf/raid/simon/src/verilog/xls/xls.sdk -hwspec /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-393] Launching SDK...
-INFO: [Vivado 12-417] Running xsdk -workspace /media/psf/raid/simon/src/verilog/xls/xls.sdk -hwspec /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
-open_hw
-connect_hw_server
-INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
-open_hw_target
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 7320.340 ; gain = 645.852 ; free physical = 1810 ; free virtual = 11700
-set_property PROGRAM.FILE {/media/psf/raid/simon/src/verilog/xls/xls.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
-current_hw_device [get_hw_devices xc7z020_1]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-create_hw_cfgmem -hw_device [get_hw_devices xc7z020_1] -mem_dev [lindex [get_cfgmem_parts {w25q128fv-qspi-x4-single}] 0]
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-open_bd_design {/media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/bd/design_1/design_1.bd}
-Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
-Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
-Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
-Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
-Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
-Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
-Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_1
-Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
-Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
-Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
-Adding cell -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_0
-Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
-Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
-Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
-Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
-Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
-Successfully read diagram <design_1> from BD file </media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/bd/design_1/design_1.bd>
-open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 7398.055 ; gain = 31.566 ; free physical = 1021 ; free virtual = 10947
-close_bd_design [get_bd_designs design_1]
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
-set_property PROGRAM.FILE {/media/psf/Home/BOOT.bin} [get_hw_devices xc7z020_1]
-program_hw_devices [get_hw_devices xc7z020_1]
-ERROR: [Labtools 27-3165] End of startup status: LOW
-program_hw_devices: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 7556.418 ; gain = 0.000 ; free physical = 957 ; free virtual = 10857
-ERROR: [Common 17-39] 'program_hw_devices' failed due to earlier errors.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-disconnect_hw_server localhost:3121
-connect_hw_server
-INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
-open_hw_target
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01.
-Check cable connectivity and that the target board is powered up then
-use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
-ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-disconnect_hw_server localhost:3121
-connect_hw_server
-INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
-ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
- Targets(s) ", jsn1jsn2jsn3jsn-DLC10-0000174c743a01jsn4jsn5jsn6" may be locked by another hw_server.
-disconnect_hw_server localhost:3121
-connect_hw_server
-INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
-connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 7556.418 ; gain = 0.000 ; free physical = 957 ; free virtual = 10856
-open_hw_target
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-set_property PROGRAM.FILE {/media/psf/Home/BOOT.bin} [get_hw_devices xc7z020_1]
-current_hw_device [get_hw_devices xc7z020_1]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-create_hw_cfgmem -hw_device [get_hw_devices xc7z020_1] -mem_dev [lindex [get_cfgmem_parts {w25q128fv-qspi-x4-single}] 0]
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-launch_sdk -workspace /media/psf/raid/simon/src/verilog/xls/xls.sdk -hwspec /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-393] Launching SDK...
-INFO: [Vivado 12-417] Running xsdk -workspace /media/psf/raid/simon/src/verilog/xls/xls.sdk -hwspec /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
-launch_sdk -workspace /media/psf/raid/simon/src/verilog/xls/xls.sdk -hwspec /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-393] Launching SDK...
-INFO: [Vivado 12-417] Running xsdk -workspace /media/psf/raid/simon/src/verilog/xls/xls.sdk -hwspec /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper.hdf
-INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/0000174c743a01
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
-INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
-WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
 WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
-close_hw
-file mkdir /media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/new
-close [ open /media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/new/xlbus.v w ]
-add_files /media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/new/xlbus.v
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+create_peripheral user.org user xlio 1.0 -dir /media/psf/raid/simon/src/verilog/ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core user.org:user:xlio:1.0]
+set_property VALUE 64 [ipx::get_bus_parameters WIZ_NUM_REG -of_objects [ipx::get_bus_interfaces S00_AXI -of_objects [ipx::find_open_core user.org:user:xlio:1.0]]]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core user.org:user:xlio:1.0]
+write_peripheral [ipx::find_open_core user.org:user:xlio:1.0]
+set_property  ip_repo_paths  /media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0 [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'.
+ipx::edit_ip_in_project -upgrade true -name edit_xlio_v1_0 -directory /media/psf/raid/simon/src/verilog/ip_repo /media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/psf/raid/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 6670.887 ; gain = 0.000 ; free physical = 3081 ; free virtual = 12995
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0/hdl/xlio_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0/hdl/xlio_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 6670.887 ; gain = 0.000 ; free physical = 3014 ; free virtual = 12928
 update_compile_order -fileset sources_1
-open_bd_design {/media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/bd/design_1/design_1.bd}
-Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
-Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
-Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
-Adding cell -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
-Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
-Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
-Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_1
-Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
-Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
-Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
-Adding cell -- xilinx.com:ip:axis_subset_converter:1.1 - axis_subset_converter_0
-Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
-Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_1
-Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
-Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
-Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
-Successfully read diagram <design_1> from BD file </media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/bd/design_1/design_1.bd>
-close_bd_design [get_bd_designs design_1]
-close [ open /media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/new/include.v w ]
-add_files /media/psf/raid/simon/src/verilog/xls/xls.srcs/sources_1/new/include.v
+close_project
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+create_peripheral user.org user xlio 1.0 -dir /media/psf/raid/simon/src/verilog/ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type full [ipx::find_open_core user.org:user:xlio:1.0]
+set_property VALUE 128 [ipx::get_bus_parameters WIZ_MEMORY_SIZE -of_objects [ipx::get_bus_interfaces S00_AXI -of_objects [ipx::find_open_core user.org:user:xlio:1.0]]]
+generate_peripheral -driver -bfm_example_design -enable_interrupt -debug_hw_example_design -force [ipx::find_open_core user.org:user:xlio:1.0]
+write_peripheral [ipx::find_open_core user.org:user:xlio:1.0]
+set_property  ip_repo_paths  {/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0 /media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0} [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'.
+WARNING: [IP_Flow 19-2207] Repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'.
+ipx::edit_ip_in_project -upgrade true -name edit_xlio_v1_0 -directory /media/psf/raid/simon/src/verilog/ip_repo /media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/psf/raid/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 6757.883 ; gain = 36.902 ; free physical = 2879 ; free virtual = 12802
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'.
+WARNING: [IP_Flow 19-2207] Repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0/hdl/xlio_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0/hdl/xlio_v1_0_S_AXI_INTR.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0/hdl/xlio_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 6757.883 ; gain = 36.902 ; free physical = 2819 ; free virtual = 12742
 update_compile_order -fileset sources_1
+close_project
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Mar  7 09:34:05 2019...
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  8 07:33:30 2019...
