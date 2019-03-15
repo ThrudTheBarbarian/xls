@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/bootimage" key="bootgen_files_selection"/>
+	<item value="/media/psf/raid/simon/src/verilog/xls/xls.runs/impl_1" key="debug_files_selection"/>
+	<item value="/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/bootimage" key="zynq_flash_files_selection"/>
+	<item value="/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/bootimage" key="last_stored_selection"/>
+</section>

@@ -1,0 +1,626 @@
+12:17:29 **** Build of project fsbl_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_0/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/canps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_6/src
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/vtc_v8_0/src
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_0/src
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling XilFFs Library
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling iicps
+Running Make libs in ps7_cortexa9_0/libsrc/canps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling canps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_6/src
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling axivdma
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/vtc_v8_0/src
+make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling video timing controller
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+12:19:29 **** Build of configuration Debug for project fsbl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/fsbl_handoff.S
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_handoff.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_handoff.d" -MT"src/fsbl_handoff.o" -o "src/fsbl_handoff.o" "../src/fsbl_handoff.S"
+Finished building: ../src/fsbl_handoff.S
+ 
+Building file: ../src/fsbl_hooks.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.o" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+Finished building: ../src/fsbl_hooks.c
+ 
+Building file: ../src/image_mover.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.o" -o "src/image_mover.o" "../src/image_mover.c"
+Finished building: ../src/image_mover.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:137:0:
+../../fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/md5.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/md5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/md5.d" -MT"src/md5.o" -o "src/md5.o" "../src/md5.c"
+Finished building: ../src/md5.c
+ 
+Building file: ../src/nand.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.o" -o "src/nand.o" "../src/nand.c"
+Finished building: ../src/nand.c
+ 
+Building file: ../src/nor.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.o" -o "src/nor.o" "../src/nor.c"
+Finished building: ../src/nor.c
+ 
+Building file: ../src/pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.o" -o "src/pcap.o" "../src/pcap.c"
+In file included from ../src/pcap.c:100:0:
+../../fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/pcap.c
+ 
+Building file: /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0/ps7_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/ps7_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.o" -o "src/ps7_init.o" "/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0/ps7_init.c"
+Finished building: /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0/ps7_init.c
+ 
+Building file: ../src/qspi.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/qspi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/qspi.d" -MT"src/qspi.o" -o "src/qspi.o" "../src/qspi.c"
+Finished building: ../src/qspi.c
+ 
+Building file: ../src/rsa.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/rsa.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rsa.d" -MT"src/rsa.o" -o "src/rsa.o" "../src/rsa.c"
+Finished building: ../src/rsa.c
+ 
+Building file: ../src/sd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/sd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd.d" -MT"src/sd.o" -o "src/sd.o" "../src/sd.c"
+Finished building: ../src/sd.c
+ 
+Building target: fsbl.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "fsbl.elf"  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: fsbl.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size fsbl.elf  |tee "fsbl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81496	  11736	  74712	 167944	  29008	fsbl.elf
+Finished building: fsbl.elf.size
+ 
+12:19:48 **** Auto Build of configuration Debug for project fsbl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size fsbl.elf  |tee "fsbl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81496	  11736	  74712	 167944	  29008	fsbl.elf
+Finished building: fsbl.elf.size
+ 
+
+**** Build of configuration Debug for project testDisplay ****
+
+Nothing to build for project testDisplay
+12:23:53 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/sii9022_init/sii9022_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sii9022_init/sii9022_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sii9022_init/sii9022_init.d" -MT"src/sii9022_init/sii9022_init.o" -o "src/sii9022_init/sii9022_init.o" "../src/sii9022_init/sii9022_init.c"
+Finished building: ../src/sii9022_init/sii9022_init.c
+ 
+Building file: ../src/1080p.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/1080p.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/1080p.d" -MT"src/1080p.o" -o "src/1080p.o" "../src/1080p.c"
+Finished building: ../src/1080p.c
+ 
+Building file: ../src/lcd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lcd.d" -MT"src/lcd.o" -o "src/lcd.o" "../src/lcd.c"
+Finished building: ../src/lcd.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/zturnhdmi.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zturnhdmi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zturnhdmi.d" -MT"src/zturnhdmi.o" -o "src/zturnhdmi.o" "../src/zturnhdmi.c"
+Finished building: ../src/zturnhdmi.c
+ 
+Building file: ../src/zturnlcd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zturnlcd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zturnlcd.d" -MT"src/zturnlcd.o" -o "src/zturnlcd.o" "../src/zturnlcd.c"
+Finished building: ../src/zturnlcd.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/lcd.o ./src/main.o ./src/zturnhdmi.o ./src/zturnlcd.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: testDisplay.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+17258324	   1312	24908720	42168356	2837024	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+12:24:53 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+17258324	   1312	24908720	42168356	2837024	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+12:26:17 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:47:28 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+13:50:20 **** Clean-only build of configuration Debug for project testDisplay ****
+make clean 
+rm -rf  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/lcd.o ./src/main.o ./src/zturnhdmi.o ./src/zturnlcd.o  ./src/sii9022_init/sii9022_init.d  ./src/1080p.d ./src/lcd.d ./src/main.d ./src/zturnhdmi.d ./src/zturnlcd.d  testDisplay.elf.size  testDisplay.elf
+ 
+13:50:20 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/sii9022_init/sii9022_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sii9022_init/sii9022_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sii9022_init/sii9022_init.d" -MT"src/sii9022_init/sii9022_init.o" -o "src/sii9022_init/sii9022_init.o" "../src/sii9022_init/sii9022_init.c"
+Finished building: ../src/sii9022_init/sii9022_init.c
+ 
+Building file: ../src/1080p.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/1080p.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/1080p.d" -MT"src/1080p.o" -o "src/1080p.o" "../src/1080p.c"
+Finished building: ../src/1080p.c
+ 
+Building file: ../src/lcd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lcd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lcd.d" -MT"src/lcd.o" -o "src/lcd.o" "../src/lcd.c"
+Finished building: ../src/lcd.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/zturnhdmi.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zturnhdmi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zturnhdmi.d" -MT"src/zturnhdmi.o" -o "src/zturnhdmi.o" "../src/zturnhdmi.c"
+Finished building: ../src/zturnhdmi.c
+ 
+Building file: ../src/zturnlcd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zturnlcd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zturnlcd.d" -MT"src/zturnlcd.o" -o "src/zturnlcd.o" "../src/zturnlcd.c"
+Finished building: ../src/zturnlcd.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/lcd.o ./src/main.o ./src/zturnhdmi.o ./src/zturnlcd.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: testDisplay.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+17258324	   1312	24908720	42168356	2837024	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+07:41:48 **** Clean-only build of configuration Debug for project testDisplay ****
+make clean 
+rm -rf  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/lcd.o ./src/main.o ./src/zturnhdmi.o ./src/zturnlcd.o  ./src/sii9022_init/sii9022_init.d  ./src/1080p.d ./src/lcd.d ./src/main.d ./src/zturnhdmi.d ./src/zturnlcd.d  testDisplay.elf.size  testDisplay.elf
+ 
+07:41:49 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/sii9022_init/sii9022_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sii9022_init/sii9022_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sii9022_init/sii9022_init.d" -MT"src/sii9022_init/sii9022_init.o" -o "src/sii9022_init/sii9022_init.o" "../src/sii9022_init/sii9022_init.c"
+Finished building: ../src/sii9022_init/sii9022_init.c
+ 
+Building file: ../src/1080p.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/1080p.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/1080p.d" -MT"src/1080p.o" -o "src/1080p.o" "../src/1080p.c"
+Finished building: ../src/1080p.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `DemoPrintTest':
+/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/Debug/../src/main.c:313: undefined reference to `zturnhdmi'
+/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/Debug/../src/main.c:313: undefined reference to `zturnhdmi'
+/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/Debug/../src/main.c:314: undefined reference to `zturnhdmi'
+/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/Debug/../src/main.c:314: undefined reference to `zturnhdmi'
+/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/Debug/../src/main.c:315: undefined reference to `zturnhdmi'
+./src/main.o:/media/psf/raid/simon/src/verilog/xls/xls.sdk/testDisplay/Debug/../src/main.c:315: more undefined references to `zturnhdmi' follow
+collect2: error: ld returned 1 exit status
+make: *** [testDisplay.elf] Error 1
+07:45:39 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: testDisplay.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+8349076	   1312	24908720	33259108	1fb7e64	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+07:47:08 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:06:02 **** Incremental Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+17:06:31 **** Incremental Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+07:27:26 **** Incremental Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+07:34:09 **** Clean-only build of configuration Debug for project fsbl ****
+make clean 
+rm -rf  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o  ./src/fsbl_handoff.d  ./src/fsbl_hooks.d ./src/image_mover.d ./src/main.d ./src/md5.d ./src/nand.d ./src/nor.d ./src/pcap.d ./src/ps7_init.d ./src/qspi.d ./src/rsa.d ./src/sd.d  fsbl.elf.size  fsbl.elf
+ 
+07:34:10 **** Auto Build of configuration Debug for project fsbl ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/fsbl_handoff.S
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_handoff.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_handoff.d" -MT"src/fsbl_handoff.o" -o "src/fsbl_handoff.o" "../src/fsbl_handoff.S"
+Finished building: ../src/fsbl_handoff.S
+ 
+Building file: ../src/fsbl_hooks.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/fsbl_hooks.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fsbl_hooks.d" -MT"src/fsbl_hooks.o" -o "src/fsbl_hooks.o" "../src/fsbl_hooks.c"
+Finished building: ../src/fsbl_hooks.c
+ 
+Building file: ../src/image_mover.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/image_mover.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image_mover.d" -MT"src/image_mover.o" -o "src/image_mover.o" "../src/image_mover.c"
+Finished building: ../src/image_mover.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/md5.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/md5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/md5.d" -MT"src/md5.o" -o "src/md5.o" "../src/md5.c"
+Finished building: ../src/md5.c
+ 
+Building file: ../src/nand.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nand.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nand.d" -MT"src/nand.o" -o "src/nand.o" "../src/nand.c"
+Finished building: ../src/nand.c
+ 
+Building file: ../src/nor.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/nor.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nor.d" -MT"src/nor.o" -o "src/nor.o" "../src/nor.c"
+Finished building: ../src/nor.c
+ 
+Building file: ../src/pcap.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/pcap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/pcap.d" -MT"src/pcap.o" -o "src/pcap.o" "../src/pcap.c"
+In file included from ../src/main.c:137:0:
+../../fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from ../src/pcap.c:100:0:
+../../fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Finished building: ../src/pcap.c
+ 
+Building file: /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0/ps7_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/ps7_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.o" -o "src/ps7_init.o" "/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0/ps7_init.c"
+Finished building: /media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0/ps7_init.c
+ 
+Building file: ../src/qspi.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/qspi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/qspi.d" -MT"src/qspi.o" -o "src/qspi.o" "../src/qspi.c"
+Finished building: ../src/qspi.c
+ 
+Building file: ../src/rsa.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/rsa.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rsa.d" -MT"src/rsa.o" -o "src/rsa.o" "../src/rsa.c"
+Finished building: ../src/rsa.c
+ 
+Building file: ../src/sd.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -I"/media/psf/raid/simon/src/verilog/xls/xls.sdk/design_1_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/sd.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sd.d" -MT"src/sd.o" -o "src/sd.o" "../src/sd.c"
+Finished building: ../src/sd.c
+ 
+Building target: fsbl.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "fsbl.elf"  ./src/fsbl_handoff.o ./src/fsbl_hooks.o ./src/image_mover.o ./src/main.o ./src/md5.o ./src/nand.o ./src/nor.o ./src/pcap.o ./src/ps7_init.o ./src/qspi.o ./src/rsa.o ./src/sd.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: fsbl.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size fsbl.elf  |tee "fsbl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81496	  11736	  74712	 167944	  29008	fsbl.elf
+Finished building: fsbl.elf.size
+ 
+07:34:31 **** Clean-only build of configuration Debug for project testDisplay ****
+make clean 
+rm -rf  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/main.o  ./src/sii9022_init/sii9022_init.d  ./src/1080p.d ./src/main.d  testDisplay.elf.size  testDisplay.elf
+ 
+07:34:32 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/sii9022_init/sii9022_init.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sii9022_init/sii9022_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/sii9022_init/sii9022_init.d" -MT"src/sii9022_init/sii9022_init.o" -o "src/sii9022_init/sii9022_init.o" "../src/sii9022_init/sii9022_init.c"
+Finished building: ../src/sii9022_init/sii9022_init.c
+ 
+Building file: ../src/1080p.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/1080p.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/1080p.d" -MT"src/1080p.o" -o "src/1080p.o" "../src/1080p.c"
+Finished building: ../src/1080p.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: testDisplay.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+8349076	   1312	24908720	33259108	1fb7e64	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+07:51:41 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/zturnhdmi.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zturnhdmi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zturnhdmi.d" -MT"src/zturnhdmi.o" -o "src/zturnhdmi.o" "../src/zturnhdmi.c"
+Finished building: ../src/zturnhdmi.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/main.o ./src/zturnhdmi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: testDisplay.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+14569876	   1312	24908720	39479908	25a6a64	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+07:52:19 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/main.o ./src/zturnhdmi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: testDisplay.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+14570324	   1312	24908720	39480356	25a6c24	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+07:52:51 **** Incremental Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+14570324	   1312	24908720	39480356	25a6c24	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+12:34:39 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: testDisplay.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "testDisplay.elf"  ./src/sii9022_init/sii9022_init.o  ./src/1080p.o ./src/main.o ./src/zturnhdmi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group
+Finished building target: testDisplay.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size testDisplay.elf  |tee "testDisplay.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+14569876	   1312	24908720	39479908	25a6a64	testDisplay.elf
+Finished building: testDisplay.elf.size
+ 
+12:35:03 **** Incremental Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+16:08:15 **** Incremental Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+16:08:18 **** Auto Build of configuration Debug for project testDisplay ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
