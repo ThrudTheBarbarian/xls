@@ -1,0 +1,660 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 4426
+License: Customer
+
+Current time: 	Fri Mar 15 17:50:52 PDT 2019
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Red Hat Enterprise Linux Server release 7.3 (Maipo)
+OS Version: 3.10.0-514.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 2
+
+Display: :0
+Screen size: 3666x2001
+Screen resolution (DPI): 95
+Available screens: 1
+Available disk space: 43 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/media/psf/raid/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/media/psf/raid/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	simon
+User home directory: /home/simon
+User working directory: /media/psf/raid/simon/src/verilog/xls/design
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /media/psf/raid/Xilinx/Vivado
+HDI_APPROOT: /media/psf/raid/Xilinx/Vivado/2018.3
+RDI_DATADIR: /media/psf/raid/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: /media/psf/raid/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: /home/simon/.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /home/simon/.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /home/simon/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/media/psf/raid/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/media/psf/raid/simon/src/verilog/xls/design/vivado.log
+Vivado journal file location: 	/media/psf/raid/simon/src/verilog/xls/design/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-4426-Vivado
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /media/psf/raid/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@soc-license01:9920@mobsi-license01:9920@mobsi-license02:2100@licserv
+XILINX_DSP: /media/psf/raid/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /media/psf/raid/Xilinx/Vivado/2018.3
+XILINX_SDK: /media/psf/raid/Xilinx/SDK/2018.3
+XILINX_VIVADO: /media/psf/raid/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: /media/psf/raid/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	132 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 4,999 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  1470 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: xls.xpr. Version: Vivado v2018.3 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 854ms to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,009 MB. GUI used memory: 56 MB. Current time: 3/15/19, 5:50:53 PM PDT
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project xls.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 114 MB (+117331kb) [00:00:36]
+// [Engine Memory]: 5,075 MB (+5170047kb) [00:00:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  7436 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1019 ms.
+// Tcl Message: open_project xls.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/media/psf/raid/simon/src/verilog/xls' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [filemgmt 56-1] IP Repository Path: Directory not found as '/media/psf/raid/simon/src/verilog/xls/ip_repo/xlio_1.0'; using path '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0' instead. INFO: [filemgmt 56-1] IP Repository Path: Directory not found as '/media/psf/raid/simon/src/verilog/xls/ip_repo/xlio_1.0'; using path '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0' instead. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/psf/raid/Xilinx/Vivado/2018.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,125 MB. GUI used memory: 63 MB. Current time: 3/15/19, 5:51:15 PM PDT
+// Project name: xls; location: /media/psf/raid/simon/src/verilog/xls/design; part: xc7z020clg400-1
+// WARNING: HEventQueue.dispatchEvent() is taking  1480 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 6467.387 ; gain = 100.836 ; free physical = 4295 ; free virtual = 13614 
+dismissDialog("Open Project"); // bx (cp)
+// [GUI Memory]: 122 MB (+1796kb) [00:00:48]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 25 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cp): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "axio"); // Y (Q)
+// Elapsed time: 15 seconds
+setText(PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, "AXI interface to the XL bus ip"); // Y (Q)
+// Elapsed time: 10 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "axixl"); // Y (Q)
+selectButton(PAResourceItoN.NewIpWizard_IP_DEFINITION_SOURCE_LOCATION, (String) null); // q (ak, Q)
+setFolderChooser("/media/psf/raid/simon/src/verilog/xls/ip");
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// Elapsed time: 24 seconds
+setText(PAResourceItoN.NewIpWizard_NAME, "S_AXI"); // Y (C, Q)
+setText(PAResourceItoN.NewIpWizard_NUMBER_OF_REGISTERS, "48"); // Y (C, Q)
+selectButton(PAResourceItoN.NewIpWizard_ADD_NEW_INTERFACE, (String) null); // k (f, Q)
+setText(PAResourceItoN.NewIpWizard_NAME, "S_AXI"); // Y (C, Q)
+selectTree(PAResourceItoN.NewIpWizard_INTERFACES_TREE, "[Interfaces, S_AXI]", 1, false); // ax (C, Q)
+setText(PAResourceItoN.NewIpWizard_NAME, "s_axi"); // Y (C, Q)
+selectTree(PAResourceItoN.NewIpWizard_INTERFACES_TREE, "[Interfaces, m_axi]", 2, false); // ax (C, Q)
+selectComboBox(PAResourceItoN.NewIpWizard_INTERFACE_MODE, "Master", 0); // e (C, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_EDIT_IP, "Edit IP"); // a (Q)
+selectButton("FINISH", "Finish"); // JButton (j, Q)
+// 'q' command handler elapsed time: 116 seconds
+dismissDialog("Create and Package New IP"); // Q (cp)
+// Tcl Message: create_peripheral user.org user axixl 1.0 -dir /media/psf/raid/simon/src/verilog/xls/ip 
+// bx (cp):  Create Peripheral IP : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: add_peripheral_interface s_axi -interface_mode slave -axi_type lite [ipx::find_open_core user.org:user:axixl:1.0] 
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property VALUE 48 [ipx::get_bus_parameters WIZ_NUM_REG -of_objects [ipx::get_bus_interfaces s_axi -of_objects [ipx::find_open_core user.org:user:axixl:1.0]]] 
+// Tcl Message: add_peripheral_interface m_axi -interface_mode master -axi_type lite [ipx::find_open_core user.org:user:axixl:1.0] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core user.org:user:axixl:1.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core user.org:user:axixl:1.0] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {/media/psf/raid/simon/src/verilog/xls/ip/axixl_1.0 /media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0 /media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0} [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// WARNING: HEventQueue.dispatchEvent() is taking  1094 ms.
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/xls/ip/axixl_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'. 
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name edit_axixl_v1_0 -directory /media/psf/raid/simon/src/verilog/xls/ip /media/psf/raid/simon/src/verilog/xls/ip/axixl_1.0/component.xml 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/psf/raid/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  3161 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,202 MB. GUI used memory: 78 MB. Current time: 3/15/19, 5:53:58 PM PDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 6693.918 ; gain = 0.000 ; free physical = 4065 ; free virtual = 13384 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/xls/ip/axixl_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/psf/raid/simon/src/verilog/ip_repo/xlio_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  2851 ms.
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 6693.918 ; gain = 0.000 ; free physical = 4008 ; free virtual = 13327 
+// [GUI Memory]: 135 MB (+7674kb) [00:03:35]
+// Elapsed time: 27 seconds
+dismissDialog("Create Peripheral IP"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,252 MB. GUI used memory: 118 MB. Current time: 3/15/19, 5:54:19 PM PDT
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 25 seconds
+setText(PAResourceItoN.IdentificationContentPanel_VENDOR, "moebius-tech.net"); // z (al, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 10 seconds
+setText(PAResourceItoN.IdentificationContentPanel_LIBRARY, "xl"); // z (al, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // ar (Q, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [GUI Memory]: 144 MB (+2657kb) [00:04:12]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // ar (Q, cp)
+// Elapsed time: 10 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+// TclEventType: IP_LOCK_CHANGE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1); // B (D, cp)
+// PAPropertyPanels.initPanels (axixl_v1_0.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 44 seconds
+selectCodeEditor("axixl_v1_0.v", 107, 250); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 107, 250, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 108, 250); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 200, 274); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 200, 272, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 201, 271); // cl (w, cp)
+// Elapsed time: 56 seconds
+selectCodeEditor("axixl_v1_0.v", 188, 671); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 179, 669); // cl (w, cp)
+// Elapsed time: 86 seconds
+selectCodeEditor("axixl_v1_0.v", 197, 669); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 197, 669, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 197, 669); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 197, 670); // cl (w, cp)
+// Elapsed time: 34 seconds
+selectCodeEditor("axixl_v1_0.v", 80, 715); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 1, 749); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 71, 726); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("axixl_v1_0.v", 76, 756); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 76, 756, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 76, 755); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectCodeEditor("axixl_v1_0.v", 5, 973); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 5, 973, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 5, 973); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 2, 197); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 73, 209); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 90, 220); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,273 MB. GUI used memory: 91 MB. Current time: 3/15/19, 5:59:58 PM PDT
+// Elapsed time: 63 seconds
+selectCodeEditor("axixl_v1_0.v", 263, 249); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 263, 249, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 90, 732); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("axixl_v1_0.v", 752, 726); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("axixl_v1_0.v", 239, 282); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 234, 265); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 234, 265, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 126, 250); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+// Elapsed time: 55 seconds
+selectCodeEditor("axixl_v1_0.v", 5, 219); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 5, 219, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 4, 220); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 308, 294); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 307, 310); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 308, 320); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 310, 339); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 517, 343); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 517, 343, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 569, 324); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 569, 324, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 513, 320); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 513, 320, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 571, 325); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 571, 325, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 498, 325); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 591, 306); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 591, 306, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 580, 291); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 580, 291, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 675, 293); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 675, 293, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("axixl_v1_0.v", 146, 187); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 146, 187, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 146, 187); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 6, 606); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("axixl_v1_0.v", 329, 678); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 330, 678, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 330, 678); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 325, 672); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 326, 672, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 326, 672); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 359, 684); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 359, 685, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 359, 685); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 310, 718); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 310, 718, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 310, 718); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 350, 703); // cl (w, cp)
+typeControlKey(null, null, 'z');
+selectCodeEditor("axixl_v1_0.v", 363, 713); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 363, 713, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 363, 713); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 370, 691); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 12, 712); // cl (w, cp)
+// Elapsed time: 134 seconds
+selectCodeEditor("axixl_v1_0.v", 120, 726); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 120, 726, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("axixl_v1_0.v", 111, 721); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 110, 729); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 110, 729, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 237, 729); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 239, 727, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 239, 732); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 240, 731, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 240, 731); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 104, 737); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 104, 737, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 173, 742); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 175, 742, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 143, 756); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 146, 754, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 147, 753); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 79, 758); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 81, 757, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 81, 757); // cl (w, cp)
+// Elapsed time: 17 seconds
+selectCodeEditor("axixl_v1_0.v", 70, 603); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 111, 485); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 111, 488, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 110, 624); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("axixl_v1_0.v", 113, 620); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 113, 620, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 113, 620); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 31, 505); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 30, 505, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 7, 640); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 330, 638); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 330, 638, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 370, 642); // cl (w, cp)
+// Elapsed time: 86 seconds
+selectCodeEditor("axixl_v1_0.v", 158, 553); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 158, 553, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 158, 553); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 282, 667); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 83, 688); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 82, 688, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("axixl_v1_0.v", 123, 709); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 122, 712, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 123, 709); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 199, 745); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 199, 745, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 75 seconds
+selectCodeEditor("axixl_v1_0.v", 137, 785); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 137, 785, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 137, 785); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 104, 804); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 95, 806); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("axixl_v1_0.v", 134, 807); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 134, 807, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 134, 807); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 128, 797); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 128, 797, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 128, 797); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'c'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 4, 858); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0.v", 'v'); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 101, 864); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 187, 865); // cl (w, cp)
+// Elapsed time: 69 seconds
+selectCodeEditor("axixl_v1_0.v", 62, 623); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 119, 619); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("axixl_v1_0.v", 117, 441); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 117, 441, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 117, 441); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 109, 575); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 109, 575, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 98, 577); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("axixl_v1_0.v", 177, 631); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 177, 631, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 177, 631); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 21 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aI (aF, cp)
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,297 MB. GUI used memory: 125 MB. Current time: 3/15/19, 6:15:28 PM PDT
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// D (cp): Invalid Top Module: addNotify
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 14 seconds
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_IGNORE_AND_CONTINUE_WITH_INVALID_TOP, "Ignore and continue with invalid top module"); // a (Q, D)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (D)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: set_property source_mgmt_mode DisplayOnly [current_project] 
+// TclEventType: IP_LOCK_CHANGE
+dismissDialog("Invalid Top Module"); // D (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,324 MB. GUI used memory: 101 MB. Current time: 3/15/19, 6:15:44 PM PDT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, cp)
+// TclEventType: IP_LOCK_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0.v]", 2, false); // B (D, cp)
+// [GUI Memory]: 152 MB (+442kb) [00:25:16]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 5,332 MB (+3172kb) [00:25:20]
+// TclEventType: IP_LOCK_CHANGE
+selectCodeEditor("axixl_v1_0.v", 367, 173); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,348 MB. GUI used memory: 141 MB. Current time: 3/15/19, 6:16:08 PM PDT
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1); // B (D, cp)
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 70 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v), axixl_v1_0_s_axi_inst : axixl_v1_0_s_axi (axixl_v1_0_s_axi.v)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// [GUI Memory]: 160 MB (+431kb) [00:27:54]
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 297 seconds
+selectCodeEditor("axixl_v1_0.v", 70, 595); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 69, 596); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,372 MB. GUI used memory: 106 MB. Current time: 3/15/19, 6:22:24 PM PDT
+// TclEventType: IP_LOCK_CHANGE
+selectCodeEditor("axixl_v1_0.v", 72, 611); // cl (w, cp)
+selectCodeEditor("axixl_v1_0.v", 72, 611, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("axixl_v1_0.v", 137, 606); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,396 MB. GUI used memory: 108 MB. Current time: 3/15/19, 6:23:03 PM PDT
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, cp) - Node
+// TclEventType: IP_LOCK_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0_m_axi.v]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0_m_axi.v]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0_m_axi.v]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("axixl_v1_0_m_axi.v", 445, 325); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 10 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cQ, cp)
+// [GUI Memory]: 169 MB (+962kb) [00:32:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,421 MB. GUI used memory: 113 MB. Current time: 3/15/19, 6:23:29 PM PDT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,441 MB. GUI used memory: 114 MB. Current time: 3/15/19, 6:24:04 PM PDT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 153 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cQ, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,465 MB. GUI used memory: 116 MB. Current time: 3/15/19, 6:26:04 PM PDT
+selectCodeEditor("axixl_v1_0_m_axi.v", 476, 132); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 417 seconds
+selectCodeEditor("axixl_v1_0_m_axi.v", 131, 547); // cl (w, cp)
+selectCodeEditor("axixl_v1_0_m_axi.v", 131, 547, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "axixl_v1_0_m_axi.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "axixl_v1_0_m_axi.v", 'v'); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("axixl_v1_0_m_axi.v", 128, 548); // cl (w, cp)
+selectCodeEditor("axixl_v1_0_m_axi.v", 128, 548, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "axixl_v1_0_m_axi.v", 'c'); // cl (w, cp)
+// Elapsed time: 705 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "axi_wvalid"); // l (aT, cp)
+selectCodeEditor("axixl_v1_0_m_axi.v", 1174, 431); // cl (w, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v), axixl_v1_0_s_axi_inst : axixl_v1_0_s_axi (axixl_v1_0_s_axi.v)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v), axixl_v1_0_m_axi_inst : axixl_v1_0_m_axi (axixl_v1_0_m_axi.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axixl_v1_0 (axixl_v1_0.v), axixl_v1_0_m_axi_inst : axixl_v1_0_m_axi (axixl_v1_0_m_axi.v)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,489 MB. GUI used memory: 125 MB. Current time: 3/15/19, 6:48:19 PM PDT
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 206 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0_m_axi.v]", 2, false); // B (D, cp)
+// [GUI Memory]: 178 MB (+890kb) [00:57:58]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0_m_axi.v]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 39 seconds
+selectCodeEditor("axixl_v1_0_m_axi.v", 319, 294); // cl (w, cp)
+// k (cp): Text Changed: addNotify
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B (k, cp)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_NO, "No"); // a (k)
+// TclEventType: IP_LOCK_CHANGE
+dismissDialog("Text Changed"); // k (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0_m_axi.v]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, axixl_v1_0_m_axi.v]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("axixl_v1_0_m_axi.v", 1783, 256); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,513 MB. GUI used memory: 122 MB. Current time: 3/15/19, 6:49:59 PM PDT
+// Elapsed time: 74 seconds
+closeMainWindow("edit_axixl_v1_0 - [/media/psf/raid/simon/src/verilog/xls/ip/edit_axixl_v1_0.xpr] - Vivado 2018.3"); // cp
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// al (cp): Save Project: addNotify
+// Elapsed time: 11 seconds
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a (al)
+// 'b' command handler elapsed time: 11 seconds
+// TclEventType: IP_LOCK_CHANGE
+dismissDialog("Save Project"); // al (cp)
